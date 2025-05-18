@@ -17,8 +17,8 @@ Welcome to my personal portfolio website! This is a clean and responsive website
 
 ## 💻 Technologies Used
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 
 ## 🖼️ Features
 
@@ -28,10 +28,11 @@ Welcome to my personal portfolio website! This is a clean and responsive website
 - About Me and Contact section
 - Clean design with modern styling
 
-## 📸 Screenshots
+📬 Contact
+GitHub: @vaishnave28
 
-![Screenshot](assets/images/screenshot.png)
-
+🪪 License
+This project is open source and free to use under the MIT License.
 ## 🧑‍💻 How to Use
 
 1. Clone this repository:
