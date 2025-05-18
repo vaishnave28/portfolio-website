@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.portfolio-bg {
+    background-color: #191a1d;
+    height: 100vh;
+}
+
+#portfolio-navbar-letter {
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+    border-style: solid;
+    border-width: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-color: #4b6cc1;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.portfolio-intro {
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+}
+
+.portfolio-image {
+    margin-bottom: 10px;
+    width: 280px;
+}
+
+.vaishu-text {
+    color: #4b6cc1;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.portfolio-para {
+    font-size: 30px;
+    color: #9aa5b1;
+}
+
+.contactme-button {
+    background-color: #4b6cc1;
+    color: white;
+    border-radius: 8px;
+    height: 50px;
+    width: 140px;
+    border-width: 0px;
+    font-size: 18px;
+}
+
+.aboutme-bg-top {
+    background-color: #323f4b;
+    min-height: 50vh;
+}
+
+.aboutme-bg-bottom {
+    background-color: #1f2933;
+    min-height: 50vh;
+}
+
+.aboutme-image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.facts-heading {
+    color: #cced00;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.aboutme-heading {
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.aboutme-para {
+    color: #9aa5b1;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.skills-container {
+    background-color: #323f4b;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.skills-image {
+    height: 64px;
+    width: 64px;
+    margin-top: 15px;
+
+}
+
+.skills-names {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+
+.pf-projects-bg {
+    background-color: #3e4c59;
+    min-height: 100vh;
+}
+
+.pf-heading {
+    color: #cced00;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.pf-projects-heading {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.pf-projects-container {
+    background-color: #323f4b;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.pf-projects-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.pf-design-heading {
+    color: #9aa5b1;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.pf-name-heading {
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.pf-para {
+    color: #9aa5b1;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.readmore-styling {
+    color: #cced00;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pf-services-bg {
+    background-color: #3e4c59;
+    min-height: 70vh;
+}
+
+.pf-services {
+    color: #cced00;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.pf-services-heading {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pf-services-container {
+    background-color: #323f4b;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.pf-services-image {
+    height: 60px;
+    width: 60px;
+}
+
+.services-container-heading {
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.services-para {
+    color: #9aa5b1;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.pf-testimonials-bg {
+    background-color: #1f2933;
+    padding: 40px;
+    height: 100vh;
+
+}
+
+.pf-testimonials-heading {
+    color: #cced00;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.pf-testimonials-title {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pf-testimonials-container {
+    background-color: #323f4b;
+    padding: 20px;
+}
+
+.carousel-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.carousel-text {
+    color: #9aa5b1;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.carousel-author {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.pf-testimonials-left-icon {
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+}
+
+.pf-testimonials-right-icon {
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+}
+
+.pf-footer-bg {
+    background-color: #0d2436;
+}
+
+.pf-footer-image {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    object-position: top center;
+    object-fit: cover;
+}
+
+.pf-footer-queries {
+    color: #cced00;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pf-footer-details {
+    color: #9aa5b1;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contactus-icon {
+    color: #5a7184;
+    font-size: 18px;
+}
+
+.pf-footer-bottom-bg {
+    background-color: #001c32;
+    padding: 10px;
+    color: white;
+}
+
+.pf-workdone-bg {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+    background-size: cover;
+}
+
+.pf-hr-line {
+    background-color: white;
+    width: 60px;
+    height: 1px;
+}
+
+.pf-workdone-numbers {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+
+}
+
+.pf-workdone-para {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.foodbg-container {
+    background-image: url(" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    height: 100vh;
+
+    background-size: cover;
+}
+
+.foodbg-card {
+    background-color: #f6c56e;
+    padding: 18px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.foodmain-heading {
+
+    font-family: "Bree Serif";
+
+}
+
+.foodparagraph {
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.foodbutton {
+    font-family: "Roboto";
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 40px;
+    width: 138px;
+    border-width: 0px;
+
+}
+
+.foodbackbutton {
+    font-family: "Roboto";
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 40px;
+    width: 138px;
+    border-width: 0px;
+}
+
+.hotel-bg-container {
+    background-image: url(" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/hotelbg.png");
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+    background-position: center;
+}
+
+.hotel-bg-card {
+    background-color: #000000e6;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.hotel-main-heading {
+    font-family: "Bree Serif";
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.hotel-para-1 {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.hotel-para-2 {
+    font-family: "Bree Serif";
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.hotel-button-styling {
+    font-family: "Roboto";
+    font-weight: 500;
+    background-color: #ffffff;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    font-size: 13px;
+    border-width: 0px;
+}
+
+.hotel-button-container {
+    margin: 20px;
+    text-align: center;
+}
+
+.hotel-back-button {
+    font-family: "Roboto";
+    font-weight: 500;
+    background-color: #ffffff;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    font-size: 13px;
+    border-width: 0px;
+}
