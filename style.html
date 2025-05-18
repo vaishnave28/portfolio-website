@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0f4c91140d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" id="portfolio-navbar-letter" href="#">V.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active text-white" onclick="display('sectionhome')">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-white" onclick="display('sectionaboutme')">About me</a>
+                <a class="nav-link text-white" onclick="display('sectionprojects')">Projects</a>
+                <a class="nav-link text-white" onclick="display('sectionservices')">Services</a>
+                <a class="nav-link text-white" onclick="display('sectiontestimonials')">Testimonials</a>
+
+            </div>
+        </div>
+    </nav>
+    <div id="sectionhome">
+        <div class="portfolio-bg d-flex flex-column justify-content-center">
+            <div class="container">
+                <div class="row mt-5 pt-5">
+                    <div class="col-12 order-1 col-md-5 order-md-2">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-banner-img.png" class="portfolio-image" />
+                    </div>
+                    <div class="col-12 order-2 col-md-7 order-md-1 d-flex flex-column justify-content-center pl-lg--5">
+                        <h1 class="portfolio-intro mb-3">Hey, I am <span class="vaishu-text">Vaishu</span></h1>
+                        <p class="portfolio-para mb-3">I am a Fullstack Developer</p>
+                        <button class="contactme-button" onclick="display('sectionfooter')">Contact Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionaboutme">
+        <div class="aboutme-bg-top">
+            <div class="container">
+                <div class="row" style="margin-top:65px;">
+                    <div class="col-12 col-md-6 order-2 order-md-1">
+                        <img src="https://i.postimg.cc/fRJ91b7s/newmyimage.png" class="aboutme-image pt-5 pb-5" />
+                    </div>
+                    <div class="col-12 col-md-6 order-1 order-md-2 d-flex flex-column pt-5">
+                        <h1 class="facts-heading mt-lg-2">Facts</h1>
+                        <h2 class="aboutme-heading pt-2 mt-lg-4">About me</h2>
+                        <div class="d-none d-md-block">
+                            <p class="aboutme-para">Motivated and detail-oriented student currently pursuing 3rd year, 1st 
+semester of B Tech in Computer Science Engineering. Possess a strong 
+foundation in programming, data structures, and problem-solving. Eager to 
+gain hands-on experience through an entry-level software development role 
+or internship. Passionate about building real-world solutions, contributing to 
+innovative projects, and continuously learning new technologies to grow as a 
+developer.<br/>
+Completed a 2-month AI internship at Ediglobe where I contributed to developing and optimizing AI models, performed data preprocessing, and collaborated with the team to implement machine learning solutions, gaining practical experience in AI technologies and tools.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 order-3 d-md-none ">
+                        <p class="aboutme-para ">Motivated and detail-oriented student currently pursuing 3rd year, 1st 
+semester of B Tech in Computer Science Engineering. Possess a strong 
+foundation in programming, data structures, and problem-solving. Eager to 
+gain hands-on experience through an entry-level software development role 
+or internship. Passionate about building real-world solutions, contributing to 
+innovative projects, and continuously learning new technologies to grow as a 
+developer.<br/>
+Completed a 2-month AI internship at Ediglobe where I contributed to developing and optimizing AI models, performed data preprocessing, and collaborated with the team to implement machine learning solutions, gaining practical experience in AI technologies and tools.<br />
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="aboutme-bg-bottom pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="facts-heading mb-5" style="font-size:30px;">Skills:</h1>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <div class="shadow skills-container mb-3 text-center">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="skills-image" />
+                            <h1 class="skills-names mt-3">HTML</h1>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="shadow skills-container mb-3 text-center">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="skills-image" />
+                            <h1 class="skills-names mt-3">CSS</h1>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="shadow skills-container mb-3 text-center">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-bootstrap-img.png" class="skills-image" />
+                            <h1 class="skills-names mt-3">Bootstrap</h1>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="shadow skills-container mb-3 text-center">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-js-img.png" class="skills-image" />
+                            <h1 class="skills-names mt-3">JS</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionprojects">
+        <div class="pf-projects-bg pt-5 pb-5" style="margin-top:60px;">
+            <h1 class="pf-heading ml-4 mb-3">Portfolio</h1>
+            <h2 class="pf-projects-heading ml-4 mb-4">Projects I have done</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="pf-projects-container pb-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-1-img.png" class="pf-projects-image" />
+                            <h1 class="pf-design-heading m-3">Web design</h1>
+                            <h2 class="pf-name-heading m-3">Royal Grand Hotel</h2>
+                            <p class="pf-para mt-2 ml-3">Royal Grand Hotel is a Simple Static Website. We can use this layout for building other websites...</p>
+                            <a onclick="display('sectionhotelpage')" class="readmore-styling pl-3 pb-3">Read More</a>
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#cced00" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="pf-projects-container pb-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-2-img.png" class="pf-projects-image" />
+                            <h1 class="pf-design-heading m-3">Web design</h1>
+                            <h2 class="pf-name-heading m-3">Happy Meals</h2>
+                            <p class="pf-para ml-3">Happy Meals is the best-in-class food ordering page today. With interactive UI/UX and simple call to actions...</p>
+                            <a onclick="display('sectionfoodorderpage')" class="readmore-styling pl-3 pb-3">Read More</a>
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#cced00" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionfoodorderpage">
+        <div class="foodbg-container d-flex flex-column justify-content-end">
+            <div class="foodbg-card">
+                <h1 class="foodmain-heading">Happy Meals</h1>
+                <p class="foodparagraph">Discover the best foods over the 1,000 <br />restaurants</p>
+                <button class="foodbutton">Book Now</button>
+                <button class="foodbackbutton ml-5" onclick="display('sectionprojects')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionhotelpage">
+        <div class="hotel-bg-container d-flex flex-column justify-content-end">
+            <div class="hotel-bg-card">
+                <h1 class="hotel-main-heading">Royal Grand Hotel</h1>
+                <p class="hotel-para-1">R.K Beach Visakhapatnam</p>
+                <p class="hotel-para-2">1200/-</p>
+            </div>
+            <div class="hotel-button-container">
+                <button class="hotel-button-styling">Book Now</button>
+                <button class="hotel-back-button ml-5" onclick="display('sectionprojects')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionservices">
+        <div class="pf-services-bg pt-5 pb-5" style="margin-top:60px;">
+            <h1 class="pf-services ml-4 mb-3">Services</h1>
+            <h2 class="pf-services-heading ml-4 mb-4">What I do</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-4 col-lg-4">
+                        <div class="pf-services-container shadow pb-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-design-img.png" class="pf-services-image mt-4 ml-3" />
+                            <h2 class="services-container-heading ml-3 mt-2">Static Websites</h2>
+                            <p class="services-para mt-2 ml-3">A Static Website contains Web pages with fixed content. Each page is developed using HTML and CSS and displays the same information to every visitor.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 mb-4 col-lg-4">
+                        <div class="pf-services-container pb-3 shadow">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-development-img.png" class="pf-services-image mt-4 ml-3" />
+                            <h2 class="services-container-heading ml-3 mt-2">Responsive Web design</h2>
+                            <p class="services-para mt-2 ml-3">Responsive Web design is the approach that suggests that design and development should respond to the user's behaviour and environment based on screen size,platform and orientation</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 mb-4 col-lg-4">
+                        <div class="pf-services-container shadow pb-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-customize-img.png" class="pf-services-image mt-4 ml-3" />
+                            <h2 class="services-container-heading ml-3 mt-2">Customisable Layouts</h2>
+                            <p class="services-para mt-2 ml-3">Customisable sites are templates with set layouts. You may be able to change photos and colors, but your site will look similar to many other sites due to the template. The same goes for... </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pf-workdone-bg  pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="60px" fill="white" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+                            <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2 2 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a10 10 0 0 0-.443.05 9.4 9.4 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a9 9 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.2 2.2 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.9.9 0 0 1-.121.416c-.165.288-.503.56-1.066.56z" />
+                        </svg>
+                        <hr class="pf-hr-line" />
+                        <h1 class="pf-workdone-numbers">10</h1>
+                        <p class="pf-workdone-para">Projects<br />Completed</p>
+                    </div>
+                    <div class="col-4 text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="60px" fill="white" class="bi bi-file-text" viewBox="0 0 16 16">
+                            <path d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5M5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1z" />
+                            <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1" />
+                        </svg>
+                        <hr class="pf-hr-line" />
+                        <h1 class="pf-workdone-numbers">2800</h1>
+                        <p class="pf-workdone-para">Lines of Code</p>
+                    </div>
+                    <div class="col-4 text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="60px" fill="white" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                        </svg>
+                        <hr class="pf-hr-line" />
+                        <h1 class="pf-workdone-numbers">15</h1>
+                        <p class="pf-workdone-para">Hours Worked</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectiontestimonials">
+        <div class="pf-testimonials-bg pt-5 pb-5" style="margin-top:75px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="pf-testimonials-heading mb-3">Testimonials</h1>
+                        <h2 class="pf-testimonials-title mb-3">Our Members <br />Says</h2>
+                    </div>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="pf-testimonials-container text-center">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-1-img.png" class="carousel-image m-3" alt="...">
+                                    <p class="carousel-text">Vaishu is one of the best hard-working developers, and it was a pleasure working with her. Having her on the project certainly made everything run smoother.</p>
+                                    <h1 class="carousel-author">- Gautham, Founder of CocoPay Company</h1>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="pf-testimonials-container text-center">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-2-img.png" class="carousel-image m-3" alt="...">
+                                    <p class="carousel-text">Working with Vaishu was an excellent experience. She is an incredibly talented developer and what makes her stand out is her work ethic and steady approach.</p>
+                                    <h1 class="carousel-author">- Rakesh, Co-developer in Veriphy Company</h1>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="pf-testimonials-container text-center">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-3-img.png" class="carousel-image m-3" alt="...">
+                                    <p class="carousel-text">I have worked with Vaishu on two complex projects, and in both cases, the projects are done in a timely fashion and delivered with excellent customer satisfaction.</p>
+                                    <h1 class="carousel-author">- Riya, Co-founder CocoPay Company</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" mt-3 text-right">
+                            <a href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionfooter">
+        <div class="pf-footer-bg pt-5 pb-3" style="margin-top:75px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 mb-3">
+                        <div class="d-flex flex-row">
+                            <img src="https://i.postimg.cc/fRJ91b7s/newmyimage.png" class="pf-footer-image" />
+                            <div class="ml-5">
+                                <h1 class="pf-footer-queries ml-lg-4 mb-3">Vaishu</h1>
+                                <p class="pf-footer-details ml-lg-4">Fullstack Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-3 text-md-center">
+                        <h1 class="pf-footer-queries">Phone No.</h1>
+                        <i class="fa-solid fa-phone contactus-icon"></i>
+                        <span class="pf-footer-details ml-2">8106942251</span>
+                    </div>
+                    <div class="col-12 col-md-4 mb-3">
+                        <h1 class="pf-footer-queries">E-mail</h1>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-envelope contactus-icon mt-1"></i>
+                            <span class="pf-footer-details ml-2">vepuri.vaishnave@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 mb-3 ml-md-5 text-lg-left ml-lg-5 pl-lg-5">
+                        <h1 class="pf-footer-queries ml-lg-5 pl-lg-5">Address</h1>
+                        <i class="fa-solid fa-map-location-dot contactus-icon ml-lg-5 pl-lg-5"></i>
+                        <span class="pf-footer-details ml-2 ml-lg-3">Flat no.506, Sri Srinivasa Nivas, New Maruthi Nagar, Chaitanyapuri, Hyderabad, India </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pf-footer-bottom-bg text-center pt-3 pb-3">
+            <i class="fa-regular fa-copyright contactus-icon"></i>
+            <span class="pf-footer-details">2024 by Vaishnave Vepuri. Created with Bootstrap.</span>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
