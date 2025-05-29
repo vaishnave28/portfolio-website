@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This is a clean and responsive website
 
 ## 🚀 Live Preview
 
-🔗 [View Live Site](https://vaishnave28.github.io/portfolio-website/)
+🔗 [View Live Site]( https://vaishupf.ccbp.tech)
 
 ## 📁 Project Structure
 ```
